@@ -3,6 +3,24 @@ Java OOP lab tasks covering basic problems, core OOP concepts, and advanced topi
 
 ---
 
+##  Lab 1: Basic Problems 
+
+### 01. Divisibility Check (2 or 3, but not both)
+- Reads an integer from the console.  
+- Determines whether the number is divisible by either 2 or 3, but not both.  
+- Prints `TRUE` if the condition is met, otherwise prints `FALSE`.
+
+---
+
+### 02. Minutes to Years and Days Conversion
+- Prompts the user to enter a number of minutes (e.g., 1 billion).  
+- Calculates and displays the equivalent number of years and days.  
+- Assume 1 year = 365 days.
+**Output:**  
+Enter the number of minutes: 1000000000
+1000000000 minutes is approximately X years and Y days
+  
+**Example Output:**
 ### 03. Quadratic Equation Roots
 - Equation: `ax^2 + bx + c = 0`  
 - Uses discriminant `D = b^2 - 4ac`.  
@@ -58,7 +76,7 @@ Input: `"hello"` → Output: `"olleh"`
 Input: `"ababab"`, pattern = `"ab"` → Output: `3`  
 
 ---
-##  Lab 2: More Basic & Number Problems
+##  Lab 2: Basic Number Problems
 
 ### 01. Grading System
 - A school has the following rules for grading:
@@ -158,33 +176,9 @@ Width = `5.5`, Height = `8.5`
 `Sum of the first 100 prime numbers: 24133`
 
 ---
-# Lab-3: Java Programming Exercises
-
-This repository contains solutions to the programming exercises for Lab-3, implemented in Java. Each program addresses a specific problem as described below. The programs are designed to be simple, readable, and well-commented to facilitate understanding.
-
-## Prerequisites
-- Java Development Kit (JDK) 8 or higher
-- A Java-compatible IDE (e.g., IntelliJ IDEA, Eclipse) or a text editor with command-line compilation tools
-
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/lab-3.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd lab-3
-   ```
-3. Compile and run each Java file using:
-   ```bash
-   javac <filename>.java
-   java <filename>
-   ```
-
-## Programs
+# Lab-3: Loop problems
 
 ### 1. CheckOddEven
-- **File**: `CheckOddEven.java`
 - **Description**: Checks if a given integer is odd or even and prints "Odd Number" or "Even Number" accordingly. Always prints "bye!" before exiting.
 - **Example Output**:
   ```
@@ -193,7 +187,6 @@ This repository contains solutions to the programming exercises for Lab-3, imple
   ```
 
 ### 2. Fibonacci
-- **File**: `Fibonacci.java`
 - **Description**: Prints the first 20 Fibonacci numbers and calculates their harmonic mean. The Fibonacci sequence is defined as F(n) = F(n-1) + F(n-2), with F(1) = F(2) = 1.
 - **Example Output**:
   ```
@@ -203,7 +196,6 @@ This repository contains solutions to the programming exercises for Lab-3, imple
   ```
 
 ### 3. SquarePattern
-- **File**: `SquarePattern.java`
 - **Description**: Prompts the user for a size (non-negative integer) and prints a square pattern of '#' characters using nested for-loops.
 - **Example Output** (for size 5):
   ```
@@ -215,33 +207,29 @@ This repository contains solutions to the programming exercises for Lab-3, imple
   ```
 
 ### 4. Triangle Patterns
-- **Files**: `TrianglePatternA.java`, `TrianglePatternB.java`
 - **Description**: Two programs that prompt the user for the number of rows and print triangular patterns:
   - **Pattern A**: A right-aligned triangle of '#' characters with increasing width.
   - **Pattern B**: An inverted triangle of '#' characters with decreasing width.
 - **Example Output** (for rows = 6):
   - Pattern A:
     ```
-         #
-       # # #
-     # # # # #
-   # # # # # # #
- # # # # # # # # #
-# # # # # # # # # # #
-
-    ```
+             #
+           # # #
+         # # # # #
+        # # # # # # #
+      # # # # # # # # #
+    # # # # # # # # # # # ```
   - Pattern B:
     ```
-# # # # # # # # # # #
- # # # # # # # # #
-   # # # # # # #
-     # # # # #
-       # # #
-         #
+    # # # # # # # # # # #
+      # # # # # # # # #
+        # # # # # # #
+          # # # # #
+            # # #
+              #
     ```
 
 ### 5. Number Patterns
-- **Files**: `NumberPatternA.java`, `NumberPatternB.java`, `NumberPatternC.java`, `NumberPatternD.java`
 - **Description**: Four programs that prompt the user for a size and print different number-based patterns:
   - **Pattern A**: Left-aligned increasing numbers.
   - **Pattern B**: Centered increasing numbers.
@@ -389,28 +377,29 @@ java CheckOddEven
 - **Description**: Prints a rhombus structure of numbers based on a user-provided integer.
 - **Example Input/Output** (for n = 7):
   ```plaintext
-      1
-     2 1 2
-    3 2 1 2 3
-   4 3 2 1 2 3 4
-  5 4 3 2 1 2 3 4 5
- 6 5 4 3 2 1 2 3 4 5 6
+            1
+          2 1 2
+        3 2 1 2 3
+      4 3 2 1 2 3 4
+    5 4 3 2 1 2 3 4 5
+  6 5 4 3 2 1 2 3 4 5 6
 7 6 5 4 3 2 1 2 3 4 5 6 7
- 6 5 4 3 2 1 2 3 4 5 6
-  5 4 3 2 1 2 3 4 5
-   4 3 2 1 2 3 4
-    3 2 1 2 3
-     2 1 2
-      1
+  6 5 4 3 2 1 2 3 4 5 6
+    5 4 3 2 1 2 3 4 5
+      4 3 2 1 2 3 4
+        3 2 1 2 3
+          2 1 2
+            1
   ```
+   ```
 
-### 17. Weekday
+#### 17. Weekday
 - **Description**: Takes an integer between 1 and 7 and displays the corresponding weekday name.
 - **Example Input/Output**:
-  ```plaintext
-  Input number: 3
-  Wednesday
-  ```
+    ```plaintext
+    Input number: 3
+    Wednesday
+    ```
 
 ### 18. LeapYear
 - **Description**: Determines if a user-provided year is a leap year.
@@ -437,30 +426,7 @@ java CheckOddEven
   Enter n: 5
   Cos(1.0) = 0.5403023058681398
   ```
-# Lab-4: Java Object-Oriented Programming Exercises
-
-This repository contains solutions to the programming exercises for Lab-4, implemented in Java. The exercises focus on object-oriented programming concepts such as class definitions, constructors, getters/setters, object arrays, and class diagrams. Each problem includes a description and specifications as provided.
-
-## Prerequisites
-- Java Development Kit (JDK) 8 or higher
-- A Java-compatible IDE (e.g., IntelliJ IDEA, Eclipse) or a text editor with command-line compilation tools
-
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/lab-4.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd lab-4
-   ```
-3. Compile and run each Java file using:
-   ```bash
-   javac <filename>.java
-   java <filename>
-   ```
-
-## Exercises
+# Lab-4: Java Basic Object-Oriented Programming Exercises
 
 ### A. Writing Class Definition
 - **Description**: Define a class `Icecream` with the following instance variables:
@@ -510,17 +476,17 @@ This repository contains solutions to the programming exercises for Lab-4, imple
 - **Description**: Represent the `Icecream` class using a class diagram.
 - **Class Diagram**:
   ```plaintext
-  +-------------------+
-  |     Icecream      |
-  +-------------------+
-  | icecreamType: String |
-  | icecreamCompany: String |
-  | icecreamPrice: double |
-  +-------------------+
-  | +Icecream() |
+  +--------------------------+
+  |     Icecream             |
+  +--------------------------+
+  | icecreamType: String     |
+  | icecreamCompany: String  |
+  | icecreamPrice: double    |
+  +--------------------------+
+  | +Icecream()              |
   | +Icecream(icecreamType: String, icecreamCompany: String, icecreamPrice: double) |
-  | +toString(): String |
-  +-------------------+
+  | +toString(): String      |
+  +--------------------------+
   ```
 
 ## Lab Problems
@@ -592,9 +558,7 @@ This repository contains solutions to the programming exercises for Lab-4, imple
     - Prints both objects.
     - Tests `add`, `sub`, `mul`, and `div` methods, printing the calling object after each operation.
 
-# LabTest1: Java Programming Exercises
-
-This repository contains solutions to the programming exercises for LabTest1, implemented in Java. The exercises focus on various programming concepts including prime numbers, matrix operations, mathematical computations, and object-oriented programming with class definitions and arrays. Each problem includes a description and expected output as provided.
+# LabTest: Java Basic and OOP Programming Exercises
 
 ## Problems
 
@@ -667,29 +631,7 @@ This repository contains solutions to the programming exercises for LabTest1, im
 
 # Lab-6: Java Object-Oriented Programming and Application Development
 
-This repository contains solutions and specifications for the programming exercises in Lab-6, implemented in Java. The exercises cover static variables, date manipulation, immutable classes, geometric computations, and a menu-based university management application. Each section includes a description and detailed specifications as provided.
-
-## Prerequisites
-- Java Development Kit (JDK) 8 or higher
-- A Java-compatible IDE (e.g., IntelliJ IDEA, Eclipse) or a text editor with command-line compilation tools
-
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/lab-6.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd lab-6
-   ```
-3. Compile and run each Java file using:
-   ```bash
-   javac <filename>.java
-   java <filename>
-   ```
-
 ## Exercises
-
 ### A. Static Variables in a Class
 - **Description**: Implement a `Book` class with a static variable to track the number of `Book` objects created.
 - **Class Diagram**:
@@ -699,9 +641,7 @@ This repository contains solutions and specifications for the programming exerci
   +---------------+
   | - ISBN: String |
   | - bookTitle: String |
-  | - numberOfPages: intelectron
-
-System: - **numberOfPages: int** |
+  | - numberOfPages: int |
   | + count: int  |
   +---------------+
   | + Book()      |
@@ -993,8 +933,6 @@ System: - **numberOfPages: int** |
       Credit Balance: [creditBalance]
       ```
 # Lab-6: Java Inheritance and Polymorphism Exercises
-
-## Exercises
 
 ### A. Defining the Superclass
 - **Description**: Design a superclass `Account` to manage bank account details.
