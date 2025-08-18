@@ -178,7 +178,7 @@ Width = `5.5`, Height = `8.5`
 ---
 # Lab-3: Loop problems
 
-### 1. CheckOddEven
+### 1. Check Odd Even
 - **Description**: Checks if a given integer is odd or even and prints "Odd Number" or "Even Number" accordingly. Always prints "bye!" before exiting.
 - **Example Output**:
   ```
@@ -195,7 +195,7 @@ Width = `5.5`, Height = `8.5`
   The average is [calculated harmonic mean]
   ```
 
-### 3. SquarePattern
+### 3. Square Pattern
 - **Description**: Prompts the user for a size (non-negative integer) and prints a square pattern of '#' characters using nested for-loops.
 - **Example Output** (for size 5):
   ```
@@ -247,7 +247,7 @@ Width = `5.5`, Height = `8.5`
   1 2 3 4 5 6 7 8                    1            8 7 6 5 4 3 2 1      1
   ```
 
-### 6. GuessNumber
+### 6. Guess Number
 - **Description**: Generates a random number and prompts the user to guess it, providing feedback ("Too high, try again" or "Too low, try again") until the correct guess is made.
 - **Example Output**:
   ```
@@ -259,7 +259,7 @@ Width = `5.5`, Height = `8.5`
   Correct!
   ```
 
-### 7. StarNumberPattern
+### 7. Star Number Pattern
 - **Description**: Uses three for-loops to print a pattern of increasing numbers followed by asterisks.
 - **Example Output**:
   ```
@@ -282,7 +282,7 @@ Width = `5.5`, Height = `8.5`
   It is a Palindrome.
   ```
 
-### 9. SeparateEvenOdd
+### 9. Separate Even Odd
 - **Description**: Takes an array of integers and rearranges it to place all even numbers before odd numbers.
 - **Example Output**:
   ```
@@ -290,7 +290,7 @@ Width = `5.5`, Height = `8.5`
   Sorted array: [2, 4, 6, 1, 3, 5]
   ```
 
-### 10. WhileLoopPatterns
+### 10. While Loop Patterns
 - **Description**: Two programs that use while-loops to print number-based triangular patterns:
   - **Pattern A**: Centered increasing numbers (e.g., 1, 222, 33333).
   - **Pattern B**: Centered numbers with a mirrored pattern (e.g., 1, 212, 32123).
@@ -314,7 +314,7 @@ Width = `5.5`, Height = `8.5`
 
 
 
-### 11. SeriesSum
+### 11. Series Sum
 - **Description**: Calculates the sum of the series `1 + 1/2 + 1/3 + ... + 1/n`, where `n` is a user-provided positive integer.
 - **Example Input/Output**:
   ```
@@ -331,7 +331,7 @@ Width = `5.5`, Height = `8.5`
   GCD: 6
   ```
 
-### 13. PascalsTriangle
+### 13. Pascals Triangle
 - **Description**: Prints Pascal's Triangle up to `n` rows using a while-loop, where `n` is a user-provided integer.
 - **Example Input/Output** (for n = 6):
   ```
@@ -340,7 +340,7 @@ Width = `5.5`, Height = `8.5`
           1   2   1
         1   3   3   1
       1   4   6   4   1
-    1   5  10  10   5  1
+    1   5  10  10   5   1
   ```
   ```
 
@@ -352,7 +352,7 @@ Width = `5.5`, Height = `8.5`
   Factorial: 120
   ```
 
-### 15. ReverseNumber
+### 15. Reverse Number
 - **Description**: Reverses a user-provided integer using a do-while loop.
 - **Example Input/Output**:
   ```plaintext
@@ -364,19 +364,19 @@ Width = `5.5`, Height = `8.5`
 - **Description**: Prints a rhombus structure of numbers based on a user-provided integer.
 - **Example Input/Output** (for n = 7):
   ```plaintext
-            1
-          2 1 2
-        3 2 1 2 3
-      4 3 2 1 2 3 4
-    5 4 3 2 1 2 3 4 5
-  6 5 4 3 2 1 2 3 4 5 6
-7 6 5 4 3 2 1 2 3 4 5 6 7
-  6 5 4 3 2 1 2 3 4 5 6
-    5 4 3 2 1 2 3 4 5
-      4 3 2 1 2 3 4
-        3 2 1 2 3
-          2 1 2
-            1
+               1
+             2 1 2
+           3 2 1 2 3
+         4 3 2 1 2 3 4
+       5 4 3 2 1 2 3 4 5
+     6 5 4 3 2 1 2 3 4 5 6
+   7 6 5 4 3 2 1 2 3 4 5 6 7
+     6 5 4 3 2 1 2 3 4 5 6
+       5 4 3 2 1 2 3 4 5
+         4 3 2 1 2 3 4
+           3 2 1 2 3
+             2 1 2
+               1
   ```
    ```
 
@@ -388,7 +388,7 @@ Width = `5.5`, Height = `8.5`
     Wednesday
     ```
 
-### 18. LeapYear
+### 18. Leap Year
 - **Description**: Determines if a user-provided year is a leap year.
 - **Example Input/Output**:
   ```plaintext
