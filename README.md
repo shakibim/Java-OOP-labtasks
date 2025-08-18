@@ -378,7 +378,7 @@ Width = `5.5`, Height = `8.5`
              2 1 2
                1
   ```
-   ```
+   
 
 #### 17. Weekday
 - **Description**: Takes an integer between 1 and 7 and displays the corresponding weekday name.
