@@ -238,17 +238,16 @@ Width = `5.5`, Height = `8.5`
 - **Example Output** (for size = 8):
   ```
   1                    1 2 3 4 5 6 7 8                          1      8 7 6 5 4 3 2 1
-  1 2                    1 2 3 4 5 6 7                       2 1      7 6 5 4 3 2 1
-  1 2 3                    1 2 3 4 5 6                    3 2 1      6 5 4 3 2 1
-  1 2 3 4                    1 2 3 4 5                 4 3 2 1      5 4 3 2 1
-  1 2 3 4 5                    1 2 3 4              5 4 3 2 1      4 3 2 1
-  1 2 3 4 5 6                    1 2 3           6 5 4 3 2 1      3 2 1
-  1 2 3 4 5 6 7                    1 2        7 6 5 4 3 2 1      2 1
-  1 2 3 4 5 6 7 8                    1     8 7 6 5 4 3 2 1      1
+  1 2                    1 2 3 4 5 6 7                        2 1      7 6 5 4 3 2 1
+  1 2 3                    1 2 3 4 5 6                      3 2 1      6 5 4 3 2 1
+  1 2 3 4                    1 2 3 4 5                    4 3 2 1      5 4 3 2 1
+  1 2 3 4 5                    1 2 3 4                  5 4 3 2 1      4 3 2 1
+  1 2 3 4 5 6                    1 2 3                6 5 4 3 2 1      3 2 1
+  1 2 3 4 5 6 7                    1 2              7 6 5 4 3 2 1      2 1
+  1 2 3 4 5 6 7 8                    1            8 7 6 5 4 3 2 1      1
   ```
 
 ### 6. GuessNumber
-- **File**: `GuessNumber.java`
 - **Description**: Generates a random number and prompts the user to guess it, providing feedback ("Too high, try again" or "Too low, try again") until the correct guess is made.
 - **Example Output**:
   ```
@@ -261,7 +260,6 @@ Width = `5.5`, Height = `8.5`
   ```
 
 ### 7. StarNumberPattern
-- **File**: `StarNumberPattern.java`
 - **Description**: Uses three for-loops to print a pattern of increasing numbers followed by asterisks.
 - **Example Output**:
   ```
@@ -275,7 +273,6 @@ Width = `5.5`, Height = `8.5`
   ```
 
 ### 8. Palindrome
-- **File**: `Palindrome.java`
 - **Description**: Checks if a given integer is a palindrome (reads the same forwards and backwards).
 - **Example Output**:
   ```
@@ -286,7 +283,6 @@ Width = `5.5`, Height = `8.5`
   ```
 
 ### 9. SeparateEvenOdd
-- **File**: `SeparateEvenOdd.java`
 - **Description**: Takes an array of integers and rearranges it to place all even numbers before odd numbers.
 - **Example Output**:
   ```
@@ -295,37 +291,28 @@ Width = `5.5`, Height = `8.5`
   ```
 
 ### 10. WhileLoopPatterns
-- **Files**: `WhileLoopPatternA.java`, `WhileLoopPatternB.java`
 - **Description**: Two programs that use while-loops to print number-based triangular patterns:
   - **Pattern A**: Centered increasing numbers (e.g., 1, 222, 33333).
   - **Pattern B**: Centered numbers with a mirrored pattern (e.g., 1, 212, 32123).
 - **Example Output**:
   - Pattern A:
     ```
-          1
-        222
-      33333
-    4444444
-  555555555
+             1
+           222
+         33333
+       4444444
+     555555555
     ```
   - Pattern B:
     ```
-          1
-        212
-      32123
-    4321234
-  543212345
+            1
+          212
+        32123
+      4321234
+    543212345
     ```
 
-## Usage
-Each program can be run independently. Navigate to the project directory, compile the desired Java file, and run it. For example:
-```bash
-javac CheckOddEven.java
-java CheckOddEven
-```
 
-
-## Programs
 
 ### 11. SeriesSum
 - **Description**: Calculates the sum of the series `1 + 1/2 + 1/3 + ... + 1/n`, where `n` is a user-provided positive integer.
@@ -348,12 +335,12 @@ java CheckOddEven
 - **Description**: Prints Pascal's Triangle up to `n` rows using a while-loop, where `n` is a user-provided integer.
 - **Example Input/Output** (for n = 6):
   ```
-           1
-         1   1
-       1   2   1
-     1   3   3   1
-   1   4   6   4   1
- 1   5  10  10   5  1
+              1
+            1   1
+          1   2   1
+        1   3   3   1
+      1   4   6   4   1
+    1   5  10  10   5  1
   ```
   ```
 
