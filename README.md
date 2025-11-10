@@ -1,16 +1,12 @@
 # Java-OOP-labtasks
 Java OOP lab tasks covering basic problems, core OOP concepts, and advanced topics such as multithreading and exception handling.
 
----
-
 ##  Lab 1: Basic Problems 
 
 ### 01. Divisibility Check (2 or 3, but not both)
 - Reads an integer from the console.  
 - Determines whether the number is divisible by either 2 or 3, but not both.  
 - Prints `TRUE` if the condition is met, otherwise prints `FALSE`.
-
----
 
 ### 02. Minutes to Years and Days Conversion
 - Prompts the user to enter a number of minutes (e.g., 1 billion).  
@@ -39,7 +35,6 @@ Enter the number of minutes: 1000000000
   - `1` → Convert from BDT to USD  
 - Prompts for the amount and displays the converted value.
 
----
 
 ### 05. Point Inside Circle Check
 - Prompts the user to enter the circle’s center `(p, q)` and radius `r`.  
@@ -50,7 +45,6 @@ Enter the number of minutes: 1000000000
 - `(4, 5)` is inside the circle centered at `(0, 0)` with radius `10`.  
 - `(9, 9)` is outside the circle.  
 
----
 
 ### 06. Reverse a String
 - Reverse a given string without using built-in reverse methods.  
@@ -58,7 +52,6 @@ Enter the number of minutes: 1000000000
 **Example:**  
 Input: `"hello"` → Output: `"olleh"`  
 
----
 
 ### 07. Check if a String is a Palindrome
 - Determine if a string reads the same backward and forward.  
@@ -67,15 +60,12 @@ Input: `"hello"` → Output: `"olleh"`
 - Input: `"racecar"` → Output: `true`  
 - Input: `"hello"` → Output: `false`  
 
----
-
 ### 08. Count the Number of Occurrences of a Substring
 - Given a string and a pattern, count how many times the pattern appears.  
 
 **Example:**  
 Input: `"ababab"`, pattern = `"ab"` → Output: `3`  
 
----
 ##  Lab 2: Basic Number Problems
 
 ### 01. Grading System
@@ -97,8 +87,6 @@ Input: `"ababab"`, pattern = `"ab"` → Output: `3`
 Input: `50 50 60`  
 Output: `This is an isosceles triangle.`
 
----
-
 ### 03. Next Prime Finder
 - Create a function that returns the **next prime number**.  
 - If the input is already prime, return the number itself.  
@@ -108,16 +96,12 @@ Output: `This is an isosceles triangle.`
 - `nextPrime(24) ➞ 29`  
 - `nextPrime(11) ➞ 11`  
 
----
-
 ### 04. Factorial Calculation
 - Write a program to calculate the factorial of a given number.  
 
 **Test Data:**  
 Input: `5`  
 Output: `The Factorial of 5 is: 120`
-
----
 
 ### 05. Armstrong Number Check
 - An **Armstrong number** (Narcissistic number) is equal to the sum of its digits raised to the power of the number of digits.  
@@ -129,8 +113,6 @@ Output: `The Factorial of 5 is: 120`
 
 Write a program to check if a number is Armstrong or not.
 
----
-
 ### 06. Count Non-Prime Numbers
 - Create a function that counts how many numbers are **not prime** up to a given integer.  
 
@@ -138,7 +120,6 @@ Write a program to check if a number is Armstrong or not.
 - `notPrimeNumbers(10) ➞ 6` → {1, 4, 6, 8, 9, 10}  
 - `notPrimeNumbers(5) ➞ 2` → {1, 4}  
 
----
 
 ### 07. Rectangle Area and Perimeter
 - Write a program to calculate the **area** and **perimeter** of a rectangle.  
@@ -150,12 +131,10 @@ Width = `5.5`, Height = `8.5`
 - Area = `47.60`  
 - Perimeter = `28.20`
 
----
 
 ### 08. Swap Two Variables
 - Write a program to swap two variables **without using a third variable**.
 
----
 
 ### 09. Reverse an Integer
 - Create a function that reverses the digits of an integer.  
@@ -167,15 +146,12 @@ Width = `5.5`, Height = `8.5`
 
 *(If the number is negative, treat it as positive before reversing.)*
 
----
-
 ### 10. Sum of the First 100 Prime Numbers
 - Write a program to compute the sum of the **first 100 prime numbers**.  
 
 **Expected Output:**  
 `Sum of the first 100 prime numbers: 24133`
 
----
 # Lab-3: Loop problems
 
 ### 1. Check Odd Even
@@ -1127,7 +1103,6 @@ Width = `5.5`, Height = `8.5`
 
 This project is a Java Swing application designed to manage course information through a graphical user interface (GUI). It supports CRUD operations (Create, Read, Update, Delete) for course details, which are displayed in a table. The application includes input fields for course code, section, class schedule, and tuition fees, and provides functionality to add, delete, update, and refresh course data.
 
-
 ## Project Description
 - **Description**: A simple Java Swing application for managing course information using a GUI. The application allows users to perform CRUD operations on course details, which are stored in an `ArrayList` and displayed in a table.
 - **Features**:
@@ -1146,9 +1121,6 @@ Run the main Java file to launch the GUI application. Use the interface to:
 - Select a course from the table and click the "Delete" button to remove it (with a confirmation prompt).
 - Select a course, modify its details in the text fields, and click the "Update" button to save changes.
 - Click the "Refresh" button to clear the input fields.
-
-## Contributing
-Feel free to submit issues or pull requests for improvements or bug fixes. Ensure that any new code follows the same structure and includes clear comments.
 
 
 
